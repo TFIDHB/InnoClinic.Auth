@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BLL {
+namespace InnoClinic.Auth.API.BLL {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace BLL {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BLL.BllMessages", typeof(BllMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("InnoClinic.Auth.API.BLL.BllMessages", typeof(BllMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

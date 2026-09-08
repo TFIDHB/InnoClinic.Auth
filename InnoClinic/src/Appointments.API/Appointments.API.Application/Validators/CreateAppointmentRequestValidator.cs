@@ -1,9 +1,9 @@
-﻿using Application.DTOs;
-using Application.Options;
-using FluentValidation;
+﻿using FluentValidation;
+using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Options;
 using Microsoft.Extensions.Options;
 
-namespace Application.Validators
+namespace InnoClinic.Appointments.API.Application.Validators
 {
     public class CreateAppointmentRequestValidator : AbstractValidator<CreateAppointmentRequestDto>
     {

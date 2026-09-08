@@ -1,6 +1,6 @@
 ﻿using InnoClinic.Shared.Interfaces;
 
-namespace Application.Interfaces
+namespace InnoClinic.Appointments.API.Application.Interfaces
 {
     public interface IAppointmentUnitOfWork : IBasicUnitOfWork
     {

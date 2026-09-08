@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Application.Validators
+namespace InnoClinic.Profiles.API.Application.Validators
 {
     public static class ValidationConstants
     {

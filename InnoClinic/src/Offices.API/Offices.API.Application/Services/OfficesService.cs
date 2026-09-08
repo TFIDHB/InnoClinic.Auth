@@ -1,10 +1,10 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Offices.API.Application.DTOs;
+using InnoClinic.Offices.API.Application.Interfaces;
+using InnoClinic.Offices.API.Domain.Entities;
 using InnoClinic.Shared.Exceptions;
 
-namespace Application.Services
+namespace InnoClinic.Offices.API.Application.Services
 {
     public class OfficesService(IOfficesRepository officesRepository, IMapper mapper) : IOfficesService
     {

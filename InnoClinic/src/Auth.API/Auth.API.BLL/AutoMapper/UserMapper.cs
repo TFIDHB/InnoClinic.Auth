@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BLL.DTOs;
-using DAL.Entities;
+using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.DAL.Entities;
 
-namespace BLL.AutoMapper
+namespace InnoClinic.Auth.API.BLL.AutoMapper
 {
     public class UserMapper : Profile
     {

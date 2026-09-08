@@ -1,6 +1,6 @@
-using Application.Extensions;
-using Infrastructure.Extensions;
+using InnoClinic.Appointments.API.Application.Extensions;
 using InnoClinic.Appointments.API.Extensions;
+using InnoClinic.Appointments.API.Infrastructure.Extensions;
 using InnoClinic.Shared.Extensions;
 using InnoClinic.Shared.Middleware;
 

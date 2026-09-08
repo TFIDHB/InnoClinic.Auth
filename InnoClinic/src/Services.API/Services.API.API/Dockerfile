@@ -9,9 +9,9 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Directory.Packages.props", "./"]
 COPY ["src/Services.API/Services.API.API/InnoClinic.Services.API.csproj", "src/Services.API/Services.API.API/"]
-COPY ["src/Services.API/Services.API.Application/Application.csproj", "src/Services.API/Services.API.Application/"]
-COPY ["src/Services.API/Services.API.Domain/Domain.csproj", "src/Services.API/Services.API.Domain/"]
-COPY ["src/Services.API/Services.API.Infrastructure/Infrastructure.csproj", "src/Services.API/Services.API.Infrastructure/"]
+COPY ["src/Services.API/Services.API.Application/InnoClinic.Services.API.Application.csproj", "src/Services.API/Services.API.Application/"]
+COPY ["src/Services.API/Services.API.Domain/InnoClinic.Services.API.Domain.csproj", "src/Services.API/Services.API.Domain/"]
+COPY ["src/Services.API/Services.API.Infrastructure/InnoClinic.Services.API.Infrastructure.csproj", "src/Services.API/Services.API.Infrastructure/"]
 COPY ["src/Shared/InnoClinic.Shared.csproj", "src/Shared/"]
 RUN dotnet restore "./src/Services.API/Services.API.API/InnoClinic.Services.API.csproj"
 COPY . .

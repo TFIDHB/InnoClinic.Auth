@@ -9,9 +9,9 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Directory.Packages.props", "./"]
 COPY ["src/Appointments.API/Appointments.API.API/InnoClinic.Appointments.API.csproj", "src/Appointments.API/Appointments.API.API/"]
-COPY ["src/Appointments.API/Appointments.API.Application/Application.csproj", "src/Appointments.API/Appointments.API.Application/"]
-COPY ["src/Appointments.API/Appointments.API.Domain/Domain.csproj", "src/Appointments.API/Appointments.API.Domain/"]
-COPY ["src/Appointments.API/Appointments.API.Infrastructure/Infrastructure.csproj", "src/Appointments.API/Appointments.API.Infrastructure/"]
+COPY ["src/Appointments.API/Appointments.API.Application/InnoClinic.Appointments.API.Application.csproj", "src/Appointments.API/Appointments.API.Application/"]
+COPY ["src/Appointments.API/Appointments.API.Domain/InnoClinic.Appointments.API.Domain.csproj", "src/Appointments.API/Appointments.API.Domain/"]
+COPY ["src/Appointments.API/Appointments.API.Infrastructure/InnoClinic.Appointments.API.Infrastructure.csproj", "src/Appointments.API/Appointments.API.Infrastructure/"]
 COPY ["src/Shared/InnoClinic.Shared.csproj", "src/Shared/"]
 RUN dotnet restore "./src/Appointments.API/Appointments.API.API/InnoClinic.Appointments.API.csproj"
 COPY . .

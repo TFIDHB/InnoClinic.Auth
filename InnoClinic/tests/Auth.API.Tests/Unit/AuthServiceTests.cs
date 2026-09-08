@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BLL.DTOs;
-using BLL.Exceptions;
-using BLL.Interfaces;
-using BLL.Services;
-using DAL.Entities;
-using DAL.Interfaces;
+using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.BLL.Exceptions;
+using InnoClinic.Auth.API.BLL.Interfaces;
+using InnoClinic.Auth.API.BLL.Services;
+using InnoClinic.Auth.API.DAL.Entities;
+using InnoClinic.Auth.API.DAL.Interfaces;
 using Moq;
 
 namespace Auth.API.Tests.Unit

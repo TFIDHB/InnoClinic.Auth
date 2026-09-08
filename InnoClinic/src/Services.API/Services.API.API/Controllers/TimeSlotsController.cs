@@ -1,5 +1,5 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using InnoClinic.Services.API.Application.DTOs;
+using InnoClinic.Services.API.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InnoClinic.Services.API.Controllers

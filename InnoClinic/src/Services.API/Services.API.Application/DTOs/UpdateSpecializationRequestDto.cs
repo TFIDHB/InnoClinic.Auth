@@ -1,4 +1,4 @@
-﻿namespace Application.DTOs
+﻿namespace InnoClinic.Services.API.Application.DTOs
 {
     public class UpdateSpecializationRequestDto
     {

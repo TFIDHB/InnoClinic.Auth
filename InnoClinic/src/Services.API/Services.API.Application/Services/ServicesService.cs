@@ -1,10 +1,10 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Services.API.Application.DTOs;
+using InnoClinic.Services.API.Application.Interfaces;
+using InnoClinic.Services.API.Domain.Entities;
 using InnoClinic.Shared.Exceptions;
 
-namespace Application.Services
+namespace InnoClinic.Services.API.Application.Services
 {
     public class ServicesService(
         IServicesUnitOfWork unitOfWork,
@@ -117,7 +117,7 @@ namespace Application.Services
             var allSlots = GenerateAllSlots(timeSlotSize).ToList();
             var allAppointments = await appointmentsClient.GetAppointmentsRangeAsync(startDate, endDate, dto.DoctorId, ct);
 
-            for (int i = 0; i < 30; i++)
+            for (var i = 0; i < 30; i++)
             {
                 var date = today.AddDays(i);
                 var appointments = allAppointments.Where(e => e.Date == date);

@@ -1,8 +1,8 @@
-﻿using Application.DTOs;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Offices.API.Application.DTOs;
+using InnoClinic.Offices.API.Domain.Entities;
 
-namespace Application.AutoMapper
+namespace InnoClinic.Offices.API.Application.AutoMapper
 {
     public class OfficesMapper : Profile
     {

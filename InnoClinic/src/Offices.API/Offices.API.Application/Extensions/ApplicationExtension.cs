@@ -1,10 +1,11 @@
-﻿using Application.Interfaces;
-using Application.Services;
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.AspNetCore;
+using InnoClinic.Offices.API.Application;
+using InnoClinic.Offices.API.Application.Interfaces;
+using InnoClinic.Offices.API.Application.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Application.Extensions
+namespace InnoClinic.Offices.API.Application.Extensions
 {
     public static class ApplicationExtension
     {

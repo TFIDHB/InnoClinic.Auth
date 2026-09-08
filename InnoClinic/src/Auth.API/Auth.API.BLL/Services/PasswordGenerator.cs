@@ -1,7 +1,7 @@
-﻿using BLL.Interfaces;
+﻿using InnoClinic.Auth.API.BLL.Interfaces;
 using System.Security.Cryptography;
 
-namespace BLL.Services
+namespace InnoClinic.Auth.API.BLL.Services
 {
     public class PasswordGenerator : IPasswordGenerator
     {

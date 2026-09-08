@@ -1,6 +1,6 @@
-﻿using Application.DTOs;
+﻿using InnoClinic.Appointments.API.Application.DTOs;
 
-namespace Application.Interfaces
+namespace InnoClinic.Appointments.API.Application.Interfaces
 {
     public interface IResultService
     {

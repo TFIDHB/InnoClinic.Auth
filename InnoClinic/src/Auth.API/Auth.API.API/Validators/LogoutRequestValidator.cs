@@ -1,5 +1,5 @@
-﻿using BLL.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using InnoClinic.Auth.API.BLL.DTOs;
 
 namespace InnoClinic.Auth.API.Validators
 {

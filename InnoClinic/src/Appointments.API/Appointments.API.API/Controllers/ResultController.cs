@@ -1,5 +1,5 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Interfaces;
 using InnoClinic.Shared.Constants;
 using InnoClinic.Shared.Extensions;
 using Microsoft.AspNetCore.Authorization;

@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Profiles.API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence
+namespace InnoClinic.Profiles.API.Infrastructure.Persistence
 {
     public class ProfilesDbContext : DbContext
     {

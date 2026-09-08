@@ -1,8 +1,8 @@
-﻿using Application.Interfaces;
-using Infrastructure.Clients;
-using Infrastructure.Options;
-using Infrastructure.Persistence;
-using Infrastructure.Persistence.Repositories;
+﻿using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Infrastructure.Clients;
+using InnoClinic.Profiles.API.Infrastructure.Options;
+using InnoClinic.Profiles.API.Infrastructure.Persistence;
+using InnoClinic.Profiles.API.Infrastructure.Persistence.Repositories;
 using InnoClinic.Shared.Handlers;
 using InnoClinic.Shared.Migrators;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Infrastructure.Extensions
+namespace InnoClinic.Profiles.API.Infrastructure.Extensions
 {
     public static class InfrastructureExtensions
     {

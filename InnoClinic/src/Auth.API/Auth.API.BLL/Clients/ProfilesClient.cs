@@ -1,9 +1,9 @@
-﻿using BLL.DTOs;
-using BLL.Interfaces;
+﻿using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.BLL.Interfaces;
 using System.Net;
 using System.Net.Http.Json;
 
-namespace BLL.Clients
+namespace InnoClinic.Auth.API.BLL.Clients
 {
     public class ProfilesClient(HttpClient httpClient) : IProfilesClient
     {

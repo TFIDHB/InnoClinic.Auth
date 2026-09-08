@@ -1,4 +1,4 @@
-﻿namespace Domain.Entities
+﻿namespace InnoClinic.Appointments.API.Domain.Entities
 {
     public class Appointment
     {

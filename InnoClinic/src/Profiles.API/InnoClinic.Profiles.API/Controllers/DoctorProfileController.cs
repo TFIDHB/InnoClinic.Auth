@@ -1,6 +1,6 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using Domain.Enums;
+﻿using InnoClinic.Profiles.API.Application.DTOs;
+using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Domain.Enums;
 using InnoClinic.Shared.Constants;
 using InnoClinic.Shared.Extensions;
 using Microsoft.AspNetCore.Authorization;

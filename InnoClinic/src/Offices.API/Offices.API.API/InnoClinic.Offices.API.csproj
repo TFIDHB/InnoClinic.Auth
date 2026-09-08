@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Offices.API.Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Offices.API.Infrastructure\InnoClinic.Offices.API.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

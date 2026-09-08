@@ -1,8 +1,8 @@
-using Application.Extensions;
-using Infrastructure.Extensions;
+using InnoClinic.Offices.API.Application.Extensions;
+using InnoClinic.Offices.API.Extensions;
+using InnoClinic.Offices.API.Infrastructure.Extensions;
 using InnoClinic.Shared.Extensions;
 using InnoClinic.Shared.Middleware;
-using Offices.API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

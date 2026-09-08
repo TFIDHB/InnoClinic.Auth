@@ -1,17 +1,16 @@
-﻿using Application.DTOs;
-using Application.Exceptions;
-using Application.Interfaces;
-using AutoMapper;
-using BLL.DTOs;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Profiles.API.Application.DTOs;
+using InnoClinic.Profiles.API.Application.Exceptions;
+using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Domain.Entities;
 using InnoClinic.Shared.Exceptions;
 
-namespace Application.Services
+namespace InnoClinic.Profiles.API.Application.Services
 {
     public class PatientProfileService(
         IProfilesUnitOfWork unitOfWork,
         IMapper mapper,
-        IAuthClient authClient): IPatientProfileService
+        IAuthClient authClient) : IPatientProfileService
     {
         public async Task<PatientProfileDto> CreateAsync(CreatePatientProfileRequestDto dto, CancellationToken ct = default)
         {

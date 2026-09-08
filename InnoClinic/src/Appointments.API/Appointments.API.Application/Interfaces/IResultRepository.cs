@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Appointments.API.Domain.Entities;
 using InnoClinic.Shared.Interfaces;
 
-namespace Application.Interfaces
+namespace InnoClinic.Appointments.API.Application.Interfaces
 {
     public interface IResultRepository : IRepository<Result, Guid>
     {

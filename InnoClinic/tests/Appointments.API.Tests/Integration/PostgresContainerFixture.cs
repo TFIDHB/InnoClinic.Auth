@@ -1,4 +1,4 @@
-﻿using Infrastructure.Persistence;
+﻿using InnoClinic.Appointments.API.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Testcontainers.PostgreSql;
 

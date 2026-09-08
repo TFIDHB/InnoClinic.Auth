@@ -1,4 +1,4 @@
-﻿namespace BLL.Interfaces
+﻿namespace InnoClinic.Auth.API.BLL.Interfaces
 {
     public interface IPasswordGenerator
     {

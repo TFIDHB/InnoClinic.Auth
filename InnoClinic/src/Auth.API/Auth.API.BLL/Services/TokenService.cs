@@ -1,5 +1,5 @@
-﻿using BLL.Interfaces;
-using DAL.Entities;
+﻿using InnoClinic.Auth.API.BLL.Interfaces;
+using InnoClinic.Auth.API.DAL.Entities;
 using InnoClinic.Shared.Settings;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace BLL.Services
+namespace InnoClinic.Auth.API.BLL.Services
 {
     public class TokenService : ITokenService
     {

@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Auth.API.BLL\BLL.csproj" />
+    <ProjectReference Include="..\Auth.API.BLL\InnoClinic.Auth.API.BLL.csproj" />
   </ItemGroup>
 
   <ItemGroup>

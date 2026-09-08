@@ -4,32 +4,34 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
-    <PackageReference Include="BCrypt" />
-    <PackageReference Include="BCrypt.Net-Next" />
-	<PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="FluentValidation.AspNetCore" />
+    <PackageReference Include="QuestPDF" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Auth.API.DAL\DAL.csproj" />
+    <ProjectReference Include="..\Appointments.API.Domain\InnoClinic.Appointments.API.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="BllMessages.Designer.cs">
+    <Compile Update="AppointmentsApiMessages.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>BllMessages.resx</DependentUpon>
+      <DependentUpon>AppointmentsApiMessages.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="BllMessages.resx">
+    <EmbeddedResource Update="AppointmentsApiMessages.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>BllMessages.Designer.cs</LastGenOutput>
+      <LastGenOutput>AppointmentsApiMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

@@ -1,14 +1,14 @@
-﻿using Application.Interfaces;
-using Infrastructure.Options;
-using Infrastructure.Persistence;
-using Infrastructure.Persistence.Repositories;
+﻿using InnoClinic.Services.API.Application.Interfaces;
+using InnoClinic.Services.API.Infrastructure.Options;
+using InnoClinic.Services.API.Infrastructure.Persistence;
+using InnoClinic.Services.API.Infrastructure.Persistence.Repositories;
 using InnoClinic.Shared.Migrators;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Infrastructure.Extensions
+namespace InnoClinic.Services.API.Infrastructure.Extensions
 {
     public static class InfrastructureExtension
     {

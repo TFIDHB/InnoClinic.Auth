@@ -1,4 +1,4 @@
-﻿namespace Application.Interfaces
+﻿namespace InnoClinic.Profiles.API.Application.Interfaces
 {
     public interface IPatientFields
     {

@@ -1,5 +1,5 @@
-﻿using BLL.DTOs;
-using BLL.Interfaces;
+﻿using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.BLL.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

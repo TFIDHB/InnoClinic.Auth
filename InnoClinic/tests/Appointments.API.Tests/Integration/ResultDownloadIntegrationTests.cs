@@ -1,10 +1,7 @@
-﻿using System.Net;
-using System.Net.Http.Headers;
-using System.Text;
-using Application.DTOs;
-using Application.Interfaces;
-using Domain.Entities;
-using Infrastructure.Persistence;
+﻿using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Domain.Entities;
+using InnoClinic.Appointments.API.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Moq;
+using System.Net;
+using System.Net.Http.Headers;
+using System.Text;
 
 namespace Appointments.API.Tests.Integration
 {

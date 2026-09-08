@@ -1,4 +1,4 @@
-﻿namespace Application.DTOs
+﻿namespace InnoClinic.Appointments.API.Application.DTOs
 {
     public class DoctorInfoDto
     {

@@ -1,14 +1,14 @@
-﻿using BLL.AutoMapper;
-using BLL.Clients;
-using BLL.Handlers;
-using BLL.Interfaces;
-using BLL.Options;
-using BLL.Services;
+﻿using InnoClinic.Auth.API.BLL.AutoMapper;
+using InnoClinic.Auth.API.BLL.Clients;
+using InnoClinic.Auth.API.BLL.Handlers;
+using InnoClinic.Auth.API.BLL.Interfaces;
+using InnoClinic.Auth.API.BLL.Options;
+using InnoClinic.Auth.API.BLL.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace BLL.Extensions
+namespace InnoClinic.Auth.API.BLL.Extensions
 {
     public static class BllExtensions
     {

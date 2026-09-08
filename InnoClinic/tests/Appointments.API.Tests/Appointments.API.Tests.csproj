@@ -21,9 +21,9 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.API\InnoClinic.Appointments.API.csproj" />
-		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.Application\Application.csproj" />
-		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.Domain\Domain.csproj" />
-		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.Infrastructure\Infrastructure.csproj" />
+		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.Application\InnoClinic.Appointments.API.Application.csproj" />
+		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.Domain\InnoClinic.Appointments.API.Domain.csproj" />
+		<ProjectReference Include="..\..\src\Appointments.API\Appointments.API.Infrastructure\InnoClinic.Appointments.API.Infrastructure.csproj" />
 		<ProjectReference Include="..\..\src\Shared\InnoClinic.Shared.csproj" />
 	</ItemGroup>
 

@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Profiles.API.Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Profiles.API.Infrastructure\InnoClinic.Profiles.API.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

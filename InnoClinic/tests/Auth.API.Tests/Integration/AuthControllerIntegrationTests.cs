@@ -1,11 +1,11 @@
-﻿using BLL.DTOs;
-using BLL.Interfaces;
-using DAL;
+﻿using System.Net;
+using System.Net.Http.Json;
+using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.BLL.Interfaces;
+using InnoClinic.Auth.API.DAL;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System.Net;
-using System.Net.Http.Json;
 
 namespace Auth.API.Tests.Integration
 {

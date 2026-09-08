@@ -1,8 +1,9 @@
-﻿using Application.Interfaces;
-using Domain.Entities;
+﻿using InnoClinic.Offices.API.Application.Interfaces;
+using InnoClinic.Offices.API.Domain.Entities;
+using InnoClinic.Offices.API.Infrastructure.Persistance;
 using MongoDB.Driver;
 
-namespace Infrastructure.Persistance.Repositories
+namespace InnoClinic.Offices.API.Infrastructure.Persistance.Repositories
 {
     public class OfficesRepository(OfficesDbContext context) : IOfficesRepository
     {

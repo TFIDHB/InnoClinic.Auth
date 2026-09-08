@@ -1,8 +1,8 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using InnoClinic.Profiles.API.Application.DTOs;
+using InnoClinic.Profiles.API.Application.Interfaces;
 using InnoClinic.Shared.Constants;
 
-namespace Application.Services
+namespace InnoClinic.Profiles.API.Application.Services
 {
     public class AccountSearchService(IProfilesUnitOfWork unitOfWork) : IAccountSearchService
     {

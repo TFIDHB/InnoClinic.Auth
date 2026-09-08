@@ -1,10 +1,10 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Domain.Entities;
 using InnoClinic.Shared.Exceptions;
 
-namespace Application.Services
+namespace InnoClinic.Appointments.API.Application.Services
 {
     public class ResultService(
         IAppointmentUnitOfWork unitOfWork,

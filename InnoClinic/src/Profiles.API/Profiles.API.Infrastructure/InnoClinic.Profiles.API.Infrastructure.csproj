@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Profiles.API.Application\Application.csproj" />
+    <ProjectReference Include="..\Profiles.API.Application\InnoClinic.Profiles.API.Application.csproj" />
   </ItemGroup>
 
 </Project>

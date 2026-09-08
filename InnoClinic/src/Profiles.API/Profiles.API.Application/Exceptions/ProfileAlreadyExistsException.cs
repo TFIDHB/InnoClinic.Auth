@@ -1,6 +1,6 @@
 ﻿using InnoClinic.Shared.Exceptions;
 
-namespace Application.Exceptions
+namespace InnoClinic.Profiles.API.Application.Exceptions
 {
     public class ProfileAlreadyExistsException : BadRequestException
     {

@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Appointments.API.Application\Application.csproj" />
+    <ProjectReference Include="..\Appointments.API.Application\InnoClinic.Appointments.API.Application.csproj" />
   </ItemGroup>
 
 </Project>

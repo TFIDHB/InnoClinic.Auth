@@ -1,4 +1,4 @@
-﻿namespace Application.DTOs
+﻿namespace InnoClinic.Offices.API.Application.DTOs
 {
     public class OfficeDto
     {

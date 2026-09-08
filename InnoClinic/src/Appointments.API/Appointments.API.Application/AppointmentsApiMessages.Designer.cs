@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Application {
+namespace InnoClinic.Appointments.API.Application {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Application {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Application.AppointmentsApiMessages", typeof(AppointmentsApiMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("InnoClinic.Appointments.API.Application.AppointmentsApiMessages", typeof(AppointmentsApiMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

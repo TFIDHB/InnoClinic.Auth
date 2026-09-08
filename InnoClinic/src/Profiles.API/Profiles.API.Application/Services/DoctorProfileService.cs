@@ -1,11 +1,11 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using AutoMapper;
-using Domain.Entities;
-using Domain.Enums;
+﻿using AutoMapper;
+using InnoClinic.Profiles.API.Application.DTOs;
+using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Domain.Entities;
+using InnoClinic.Profiles.API.Domain.Enums;
 using InnoClinic.Shared.Exceptions;
 
-namespace Application.Services
+namespace InnoClinic.Profiles.API.Application.Services
 {
     public class DoctorProfileService(
         IProfilesUnitOfWork unitOfWork,

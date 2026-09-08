@@ -1,11 +1,11 @@
-﻿using DAL.Interfaces;
-using DAL.Repositories;
+﻿using InnoClinic.Auth.API.DAL.Interfaces;
+using InnoClinic.Auth.API.DAL.Repositories;
 using InnoClinic.Shared.Migrators;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DAL.Extensions
+namespace InnoClinic.Auth.API.DAL.Extensions
 {
     public static class DalExtensions
     {

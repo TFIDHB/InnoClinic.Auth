@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Profiles.API.Domain.Entities;
 using InnoClinic.Shared.Interfaces;
 
-namespace Application.Interfaces
+namespace InnoClinic.Profiles.API.Application.Interfaces
 {
     public interface IPatientProfilesRepository : IRepository<PatientProfile, Guid>
     {

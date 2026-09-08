@@ -1,12 +1,12 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Interfaces;
 using InnoClinic.Shared.Exceptions;
 using Microsoft.AspNetCore.Http;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 
-namespace Infrastructure.Clients
+namespace InnoClinic.Appointments.API.Infrastructure.Clients
 {
     public class DocumentsClient(HttpClient httpClient) : IDocumentsClient
     {

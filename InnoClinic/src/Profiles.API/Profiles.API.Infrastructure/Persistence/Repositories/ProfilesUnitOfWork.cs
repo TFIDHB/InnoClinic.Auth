@@ -1,7 +1,8 @@
-﻿using Application.Interfaces;
+﻿using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Profiles.API.Infrastructure.Persistence.Repositories
 {
     public class ProfilesUnitOfWork(ProfilesDbContext context, IServiceProvider provider) : IProfilesUnitOfWork, IDisposable
     {

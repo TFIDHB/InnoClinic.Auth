@@ -1,7 +1,8 @@
-﻿using Application.Interfaces;
+﻿using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Appointments.API.Infrastructure.Persistence.Repositories
 {
     public class AppointmentUnitOfWork(AppointmentDbContext context, IServiceProvider provider)
         : IAppointmentUnitOfWork, IDisposable

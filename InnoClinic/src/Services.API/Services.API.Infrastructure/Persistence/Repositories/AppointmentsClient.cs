@@ -1,8 +1,8 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using InnoClinic.Services.API.Application.DTOs;
+using InnoClinic.Services.API.Application.Interfaces;
 using System.Net.Http.Json;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Services.API.Infrastructure.Persistence.Repositories
 {
     public class AppointmentsClient(HttpClient httpClient) : IAppointmentsClient
     {

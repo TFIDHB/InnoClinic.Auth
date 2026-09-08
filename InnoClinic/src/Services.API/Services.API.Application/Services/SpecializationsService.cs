@@ -1,15 +1,15 @@
-﻿using Application.DTOs;
-using Application.Exceptions;
-using Application.Interfaces;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Services.API.Application.DTOs;
+using InnoClinic.Services.API.Application.Exceptions;
+using InnoClinic.Services.API.Application.Interfaces;
+using InnoClinic.Services.API.Domain.Entities;
 using InnoClinic.Shared.Exceptions;
 
-namespace Application.Services
+namespace InnoClinic.Services.API.Application.Services
 {
     public class SpecializationsService(
         IServicesUnitOfWork unitOfWork,
-        IMapper mapper) : ISpecializationsService
+        IMapper mapper): ISpecializationsService
     {
         public async Task<SpecializationDto> CreateAsync(CreateSpecializationRequestDto dto, CancellationToken ct = default)
         {

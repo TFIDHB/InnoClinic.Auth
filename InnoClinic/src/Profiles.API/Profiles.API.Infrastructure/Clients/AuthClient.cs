@@ -1,16 +1,11 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using BLL.DTOs;
+﻿using System.Net.Http.Json;
+using InnoClinic.Profiles.API.Application.DTOs;
+using InnoClinic.Profiles.API.Application.Interfaces;
 using InnoClinic.Shared.Exceptions;
-using InnoClinic.Shared.Generators;
-using InnoClinic.Shared.Settings;
-using Microsoft.Extensions.Options;
-using System.Net.Http.Headers;
-using System.Net.Http.Json;
 
-namespace Infrastructure.Clients
+namespace InnoClinic.Profiles.API.Infrastructure.Clients
 {
-    public class AuthClient(HttpClient httpClient, IOptions<JwtSettings> jwtSettings) : IAuthClient
+    public class AuthClient(HttpClient httpClient): IAuthClient
     {
         public async Task<CreateStaffAccountResponseDto> CreateStaffAccountAsync(string email, CancellationToken ct = default)
         {
@@ -23,12 +18,7 @@ namespace Infrastructure.Clients
 
         public async Task<UserAccountInfoDto?> GetAccountInfoAsStaffAsync(Guid userId, CancellationToken ct = default)
         {
-            var internalToken = InternalServiceTokenGenerator.Generate(jwtSettings.Value);
-
-            var request = new HttpRequestMessage(HttpMethod.Get, $"/api/v1/accounts/{userId}");
-            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", internalToken);
-
-            var response = await httpClient.SendAsync(request, ct);
+            var response = await httpClient.GetAsync($"/api/v1/accounts/{userId}", ct);
             if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
             {
                 return null;
@@ -42,7 +32,7 @@ namespace Infrastructure.Clients
 
         public async Task<UserAccountInfoDto?> GetUserAccountInfoAsync(Guid userId, CancellationToken ct = default)
         {
-            var response = await httpClient.GetAsync($"/api/v1/auth/accounts/{userId}", ct);
+            var response = await httpClient.GetAsync($"/api/v1/accounts/{userId}", ct);
             if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
             {
                 return null;
@@ -56,7 +46,7 @@ namespace Infrastructure.Clients
 
         public async Task UpdateUserAccountInfoAsync(Guid userId, UpdateUserAccountInfoDto dto, CancellationToken ct = default)
         {
-            var response = await httpClient.PutAsJsonAsync($"/api/v1/auth/accounts/{userId}", dto, ct);
+            var response = await httpClient.PutAsJsonAsync($"/api/v1/accounts/{userId}", dto, ct);
             response.EnsureSuccessStatusCode();
         }
     }

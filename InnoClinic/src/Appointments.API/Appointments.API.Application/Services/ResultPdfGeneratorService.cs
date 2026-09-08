@@ -1,9 +1,9 @@
-﻿using Application.DTOs;
+﻿using InnoClinic.Appointments.API.Application.DTOs;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 
-namespace Application.Services
+namespace InnoClinic.Appointments.API.Application.Services
 {
     public static class ResultPdfGeneratorService
     {

@@ -1,4 +1,4 @@
-﻿namespace Application.Options
+﻿namespace InnoClinic.Appointments.API.Application.Options
 {
     public class WorkingHoursOptions
     {

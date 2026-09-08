@@ -1,10 +1,10 @@
-﻿using System.Security.Claims;
-using BLL.DTOs;
-using BLL.Interfaces;
+﻿using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.BLL.Interfaces;
 using InnoClinic.Auth.API.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using System.Security.Claims;
 
 namespace Auth.API.Tests.Unit
 {

@@ -1,5 +1,5 @@
-using BLL.Extensions;
-using DAL.Extensions;
+using InnoClinic.Auth.API.BLL.Extensions;
+using InnoClinic.Auth.API.DAL.Extensions;
 using InnoClinic.Auth.API.Extensions;
 using InnoClinic.Shared.Extensions;
 using InnoClinic.Shared.Middleware;

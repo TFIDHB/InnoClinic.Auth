@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Appointments.API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence
+namespace InnoClinic.Appointments.API.Infrastructure.Persistence
 {
     public class AppointmentDbContext : DbContext
     {

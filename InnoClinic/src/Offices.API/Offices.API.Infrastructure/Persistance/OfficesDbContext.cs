@@ -1,8 +1,8 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Offices.API.Domain.Entities;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 
-namespace Infrastructure.Persistance
+namespace InnoClinic.Offices.API.Infrastructure.Persistance
 {
     public class OfficesDbContext
     {

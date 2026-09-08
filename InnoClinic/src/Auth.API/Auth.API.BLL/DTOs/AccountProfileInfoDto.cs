@@ -1,4 +1,4 @@
-﻿namespace BLL.DTOs
+﻿namespace InnoClinic.Auth.API.BLL.DTOs
 {
     public class AccountProfileInfoDto
     {

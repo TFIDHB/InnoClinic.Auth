@@ -1,6 +1,6 @@
-﻿using DAL;
-using DAL.Entities;
-using DAL.Repositories;
+﻿using InnoClinic.Auth.API.DAL;
+using InnoClinic.Auth.API.DAL.Entities;
+using InnoClinic.Auth.API.DAL.Repositories;
 
 namespace Auth.API.Tests.Integration
 {
@@ -14,7 +14,7 @@ namespace Auth.API.Tests.Integration
             _fixture = fixture;
         }
 
-        private AuthDbContext CreateContext() => new(_fixture.ContextOptions);
+        private AuthDbContext CreateContext() => new (_fixture.ContextOptions);
 
         [Fact]
         public async Task ExistsByEmailAsync_WhenEmailExists_ReturnsTrue()

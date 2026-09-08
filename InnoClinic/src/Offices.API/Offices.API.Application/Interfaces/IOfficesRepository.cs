@@ -1,6 +1,6 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Offices.API.Domain.Entities;
 
-namespace Application.Interfaces
+namespace InnoClinic.Offices.API.Application.Interfaces
 {
     public interface IOfficesRepository
     {

@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Services.API.Domain.Entities;
 using InnoClinic.Shared.Interfaces;
 
-namespace Application.Interfaces
+namespace InnoClinic.Services.API.Application.Interfaces
 {
     public interface ISpecializationsRepository : IRepository<Specialization, Guid>
     {
