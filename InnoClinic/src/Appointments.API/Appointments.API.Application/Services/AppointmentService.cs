@@ -1,20 +1,20 @@
-﻿using Application.DTOs;
-using Application.Exceptions;
-using Application.Interfaces;
-using Application.Options;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Exceptions;
+using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Application.Options;
+using InnoClinic.Appointments.API.Domain.Entities;
 using InnoClinic.Shared.Exceptions;
 using Microsoft.Extensions.Options;
 
-namespace Application.Services
+namespace InnoClinic.Appointments.API.Application.Services
 {
     public class AppointmentService(
         IAppointmentUnitOfWork unitOfWork,
         IMapper mapper,
         IServicesClient servicesClient,
         IProfilesClient profilesClient,
-        IOptions<WorkingHoursOptions> workingHoursOptions): IAppointmentService
+        IOptions<WorkingHoursOptions> workingHoursOptions) : IAppointmentService
     {
         private const int _atWorkStatus = 0;
 

@@ -1,4 +1,4 @@
-﻿namespace Domain.Entities
+﻿namespace InnoClinic.Profiles.API.Domain.Entities
 {
     public class BaseProfile
     {

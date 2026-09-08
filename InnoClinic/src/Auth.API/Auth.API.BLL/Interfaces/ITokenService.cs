@@ -1,6 +1,6 @@
-﻿using DAL.Entities;
+﻿using InnoClinic.Auth.API.DAL.Entities;
 
-namespace BLL.Interfaces
+namespace InnoClinic.Auth.API.BLL.Interfaces
 {
     public interface ITokenService
     {

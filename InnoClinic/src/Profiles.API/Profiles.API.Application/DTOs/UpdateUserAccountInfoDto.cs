@@ -1,4 +1,4 @@
-﻿namespace BLL.DTOs
+﻿namespace InnoClinic.Profiles.API.Application.DTOs
 {
     public class UpdateUserAccountInfoDto
     {

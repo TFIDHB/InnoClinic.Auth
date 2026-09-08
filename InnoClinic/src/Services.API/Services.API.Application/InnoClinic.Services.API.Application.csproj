@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Services.API.Domain\Domain.csproj" />
+    <ProjectReference Include="..\Services.API.Domain\InnoClinic.Services.API.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

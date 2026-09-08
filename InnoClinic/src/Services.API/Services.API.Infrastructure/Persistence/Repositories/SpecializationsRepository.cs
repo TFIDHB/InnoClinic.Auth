@@ -1,9 +1,10 @@
-﻿using Application.Interfaces;
-using Domain.Entities;
+﻿using InnoClinic.Services.API.Application.Interfaces;
+using InnoClinic.Services.API.Domain.Entities;
+using InnoClinic.Services.API.Infrastructure.Persistence;
 using InnoClinic.Shared.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Services.API.Infrastructure.Persistence.Repositories
 {
     public class SpecializationsRepository(ServicesDbContext context) : BaseRepository<Specialization, Guid>(context), ISpecializationsRepository
     {

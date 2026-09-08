@@ -1,12 +1,13 @@
-﻿using Application.Interfaces;
-using Application.Options;
-using Application.Services;
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.AspNetCore;
+using InnoClinic.Appointments.API.Application;
+using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Application.Options;
+using InnoClinic.Appointments.API.Application.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Application.Extensions
+namespace InnoClinic.Appointments.API.Application.Extensions
 {
     public static class ApplicationExtensions
     {

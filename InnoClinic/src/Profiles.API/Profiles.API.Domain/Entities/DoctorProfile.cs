@@ -1,6 +1,6 @@
-﻿using Domain.Enums;
+﻿using InnoClinic.Profiles.API.Domain.Enums;
 
-namespace Domain.Entities
+namespace InnoClinic.Profiles.API.Domain.Entities
 {
     public class DoctorProfile : BaseProfile
     {

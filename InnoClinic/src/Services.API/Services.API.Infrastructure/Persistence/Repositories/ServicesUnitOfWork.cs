@@ -1,7 +1,8 @@
-﻿using Application.Interfaces;
+﻿using InnoClinic.Services.API.Application.Interfaces;
+using InnoClinic.Services.API.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Services.API.Infrastructure.Persistence.Repositories
 {
     public class ServicesUnitOfWork(ServicesDbContext context, IServiceProvider provider) : IServicesUnitOfWork, IDisposable
     {

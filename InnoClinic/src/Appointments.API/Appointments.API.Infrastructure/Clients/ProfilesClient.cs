@@ -1,10 +1,10 @@
 ﻿using System.Net;
 using System.Net.Http.Json;
-using Application.DTOs;
-using Application.Interfaces;
+using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Application.Interfaces;
 using InnoClinic.Shared.Exceptions;
 
-namespace Infrastructure.Clients
+namespace InnoClinic.Appointments.API.Infrastructure.Clients
 {
     public class ProfilesClient(HttpClient httpClient): IProfilesClient
     {

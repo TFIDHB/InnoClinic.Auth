@@ -1,9 +1,10 @@
-﻿using Application.Interfaces;
-using Domain.Entities;
+﻿using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Domain.Entities;
+using InnoClinic.Appointments.API.Infrastructure.Persistence;
 using InnoClinic.Shared.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Appointments.API.Infrastructure.Persistence.Repositories
 {
     public class AppointmentRepository(AppointmentDbContext context) : BaseRepository<Appointment, Guid>(context), IAppointmentRepository
     {

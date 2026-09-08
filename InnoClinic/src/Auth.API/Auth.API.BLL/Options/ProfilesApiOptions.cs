@@ -1,4 +1,4 @@
-﻿namespace BLL.Options
+﻿namespace InnoClinic.Auth.API.BLL.Options
 {
     public class ProfilesApiOptions
     {

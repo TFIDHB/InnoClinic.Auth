@@ -1,7 +1,7 @@
-﻿using BLL.DTOs;
+﻿using InnoClinic.Auth.API.BLL.DTOs;
 using System.Security.Claims;
 
-namespace BLL.Interfaces
+namespace InnoClinic.Auth.API.BLL.Interfaces
 {
     public interface IAuthService
     {

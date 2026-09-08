@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Application
+namespace InnoClinic.Profiles.API.Application
 {
     public class AssemblyReference
     {

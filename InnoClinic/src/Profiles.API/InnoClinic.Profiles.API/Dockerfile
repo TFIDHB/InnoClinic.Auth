@@ -15,9 +15,9 @@ WORKDIR /src
 COPY ["Directory.Packages.props", "./"]
 COPY ["src/Profiles.API/InnoClinic.Profiles.API/InnoClinic.Profiles.API.csproj", "src/Profiles.API/InnoClinic.Profiles.API/"]
 COPY ["src/Shared/InnoClinic.Shared.csproj", "src/Shared/"]
-COPY ["src/Profiles.API/Profiles.API.Infrastructure/Infrastructure.csproj", "src/Profiles.API/Profiles.API.Infrastructure/"]
-COPY ["src/Profiles.API/Profiles.API.Application/Application.csproj", "src/Profiles.API/Profiles.API.Application/"]
-COPY ["src/Profiles.API/Profiles.API.Domain/Domain.csproj", "src/Profiles.API/Profiles.API.Domain/"]
+COPY ["src/Profiles.API/Profiles.API.Infrastructure/InnoClinic.Profiles.API.Infrastructure.csproj", "src/Profiles.API/Profiles.API.Infrastructure/"]
+COPY ["src/Profiles.API/Profiles.API.Application/InnoClinic.Profiles.API.Application.csproj", "src/Profiles.API/Profiles.API.Application/"]
+COPY ["src/Profiles.API/Profiles.API.Domain/InnoClinic.Profiles.API.Domain.csproj", "src/Profiles.API/Profiles.API.Domain/"]
 RUN dotnet restore "./src/Profiles.API/InnoClinic.Profiles.API/InnoClinic.Profiles.API.csproj"
 COPY . .
 WORKDIR "/src/src/Profiles.API/InnoClinic.Profiles.API"

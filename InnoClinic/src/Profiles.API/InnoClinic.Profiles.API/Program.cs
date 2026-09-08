@@ -1,6 +1,6 @@
-using Application.Extensions;
-using Infrastructure.Extensions;
+using InnoClinic.Profiles.API.Application.Extensions;
 using InnoClinic.Profiles.API.Extensions;
+using InnoClinic.Profiles.API.Infrastructure.Extensions;
 using InnoClinic.Shared.Extensions;
 using InnoClinic.Shared.Middleware;
 

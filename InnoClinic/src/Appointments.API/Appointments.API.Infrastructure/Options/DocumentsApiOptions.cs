@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Options
+﻿namespace InnoClinic.Appointments.API.Infrastructure.Options
 {
     public class DocumentsApiOptions
     {

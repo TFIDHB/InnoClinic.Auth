@@ -1,7 +1,7 @@
-﻿using DAL.Entities;
+﻿using InnoClinic.Auth.API.DAL.Entities;
 using InnoClinic.Shared.Interfaces;
 
-namespace DAL.Interfaces
+namespace InnoClinic.Auth.API.DAL.Interfaces
 {
     public interface IUserRepository : IRepository<User, Guid>
     {

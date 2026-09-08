@@ -1,7 +1,7 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Services.API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence
+namespace InnoClinic.Services.API.Infrastructure.Persistence
 {
     public class ServicesDbContext : DbContext
     {

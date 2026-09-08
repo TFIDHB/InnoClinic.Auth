@@ -1,8 +1,8 @@
-﻿using DAL.Entities;
+﻿using InnoClinic.Auth.API.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DAL.Configurations
+namespace InnoClinic.Auth.API.DAL.Configurations
 {
     public class AuthConfiguration : IEntityTypeConfiguration<User>
     {

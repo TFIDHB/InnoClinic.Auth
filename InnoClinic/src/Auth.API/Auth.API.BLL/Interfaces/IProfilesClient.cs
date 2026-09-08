@@ -1,6 +1,6 @@
-﻿using BLL.DTOs;
+﻿using InnoClinic.Auth.API.BLL.DTOs;
 
-namespace BLL.Interfaces
+namespace InnoClinic.Auth.API.BLL.Interfaces
 {
     public interface IProfilesClient
     {

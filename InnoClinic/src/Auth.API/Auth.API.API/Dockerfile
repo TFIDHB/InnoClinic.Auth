@@ -15,8 +15,8 @@ WORKDIR /src
 COPY ["Directory.Packages.props", "./"]
 COPY ["src/Auth.API/Auth.API.API/InnoClinic.Auth.API.csproj", "src/Auth.API/Auth.API.API/"]
 COPY ["src/Shared/InnoClinic.Shared.csproj", "src/Shared/"]
-COPY ["src/Auth.API/Auth.API.BLL/BLL.csproj", "src/Auth.API/Auth.API.BLL/"]
-COPY ["src/Auth.API/Auth.API.DAL/DAL.csproj", "src/Auth.API/Auth.API.DAL/"]
+COPY ["src/Auth.API/Auth.API.BLL/InnoClinic.Auth.API.BLL.csproj", "src/Auth.API/Auth.API.BLL/"]
+COPY ["src/Auth.API/Auth.API.DAL/InnoClinic.Auth.API.DAL.csproj", "src/Auth.API/Auth.API.DAL/"]
 RUN dotnet restore "./src/Auth.API/Auth.API.API/InnoClinic.Auth.API.csproj"
 COPY . .
 WORKDIR "/src/src/Auth.API/Auth.API.API"

@@ -7,19 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointments.API", "Appoint
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth.API", "Auth.API", "{6A2FD57B-4CDE-4E07-9177-43CCA2A5B589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "src\Auth.API\Auth.API.DAL\DAL.csproj", "{933CAAF8-BDC5-2632-588C-ACD4CB927685}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Auth.API.DAL", "src\Auth.API\Auth.API.DAL\InnoClinic.Auth.API.DAL.csproj", "{933CAAF8-BDC5-2632-588C-ACD4CB927685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "src\Auth.API\Auth.API.BLL\BLL.csproj", "{A1761802-BDFC-F5B5-8F24-773D4C15B5A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Auth.API.BLL", "src\Auth.API\Auth.API.BLL\InnoClinic.Auth.API.BLL.csproj", "{A1761802-BDFC-F5B5-8F24-773D4C15B5A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Auth.API", "src\Auth.API\Auth.API.API\InnoClinic.Auth.API.csproj", "{A7BE8F50-F553-0850-0123-624D966B904E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Appointments.API", "src\Appointments.API\Appointments.API.API\InnoClinic.Appointments.API.csproj", "{F3000023-03FE-890D-F129-110F86E73A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Appointments.API\Appointments.API.Application\Application.csproj", "{1EF75FE4-BE14-174B-496C-08B18A6DFE7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Appointments.API.Application", "src\Appointments.API\Appointments.API.Application\InnoClinic.Appointments.API.Application.csproj", "{1EF75FE4-BE14-174B-496C-08B18A6DFE7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Appointments.API\Appointments.API.Domain\Domain.csproj", "{59A5B1B1-54BB-7FFA-5CFC-4F53FD044CAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Appointments.API.Domain", "src\Appointments.API\Appointments.API.Domain\InnoClinic.Appointments.API.Domain.csproj", "{59A5B1B1-54BB-7FFA-5CFC-4F53FD044CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Appointments.API\Appointments.API.Infrastructure\Infrastructure.csproj", "{1C19C289-7338-A01B-72C6-5AF0CB606D8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Appointments.API.Infrastructure", "src\Appointments.API\Appointments.API.Infrastructure\InnoClinic.Appointments.API.Infrastructure.csproj", "{1C19C289-7338-A01B-72C6-5AF0CB606D8A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B99A4F90-8F35-4E82-B7CD-1CCB91DCD63C}"
 EndProject
@@ -31,11 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5EF861A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services.API", "Services.API", "{CDB186A9-7113-473A-BE6A-8BBAED0A3E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Services.API\Services.API.Domain\Domain.csproj", "{8087FA19-E04F-F5E1-2D72-7FC71CAF2FD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Services.API.Domain", "src\Services.API\Services.API.Domain\InnoClinic.Services.API.Domain.csproj", "{8087FA19-E04F-F5E1-2D72-7FC71CAF2FD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Services.API\Services.API.Application\Application.csproj", "{BCC619DD-BCDD-96EE-1A91-D78F0C8D2452}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Services.API.Application", "src\Services.API\Services.API.Application\InnoClinic.Services.API.Application.csproj", "{BCC619DD-BCDD-96EE-1A91-D78F0C8D2452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Services.API\Services.API.Infrastructure\Infrastructure.csproj", "{7A731548-4760-D1B1-5A8A-F7F8452F5FED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Services.API.Infrastructure", "src\Services.API\Services.API.Infrastructure\InnoClinic.Services.API.Infrastructure.csproj", "{7A731548-4760-D1B1-5A8A-F7F8452F5FED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Services.API", "src\Services.API\Services.API.API\InnoClinic.Services.API.csproj", "{24529F5B-2EB1-379A-DB74-A3D8C7C9EAF9}"
 EndProject
@@ -43,21 +43,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Profiles.API", "Profiles.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Profiles.API", "src\Profiles.API\InnoClinic.Profiles.API\InnoClinic.Profiles.API.csproj", "{45F929DF-3469-4F80-8868-8B91E2D5763D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Profiles.API\Profiles.API.Domain\Domain.csproj", "{A65D60E1-16EC-8DAA-B5D5-52CB25B25D6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Profiles.API.Domain", "src\Profiles.API\Profiles.API.Domain\InnoClinic.Profiles.API.Domain.csproj", "{A65D60E1-16EC-8DAA-B5D5-52CB25B25D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Profiles.API\Profiles.API.Application\Application.csproj", "{6C469EB9-027A-F442-6D9F-6F64BCBEAC2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Profiles.API.Application", "src\Profiles.API\Profiles.API.Application\InnoClinic.Profiles.API.Application.csproj", "{6C469EB9-027A-F442-6D9F-6F64BCBEAC2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Profiles.API\Profiles.API.Infrastructure\Infrastructure.csproj", "{50080D5C-112E-234D-DA5C-3623DF4A3ABC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Profiles.API.Infrastructure", "src\Profiles.API\Profiles.API.Infrastructure\InnoClinic.Profiles.API.Infrastructure.csproj", "{50080D5C-112E-234D-DA5C-3623DF4A3ABC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Offices.API", "Offices.API", "{DE2715CF-0BBF-4B31-B071-CAC222FAEC47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offices.API", "src\Offices.API\Offices.API.API\Offices.API.csproj", "{39FB2DBC-4F7F-460A-3EF7-94B1C98A264B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Offices.API", "src\Offices.API\Offices.API.API\InnoClinic.Offices.API.csproj", "{39FB2DBC-4F7F-460A-3EF7-94B1C98A264B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Offices.API\Offices.API.Infrastructure\Infrastructure.csproj", "{3680DDE2-101E-316A-FB33-BA4FC7C3FE8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Offices.API.Infrastructure", "src\Offices.API\Offices.API.Infrastructure\InnoClinic.Offices.API.Infrastructure.csproj", "{3680DDE2-101E-316A-FB33-BA4FC7C3FE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Offices.API\Offices.API.Domain\Domain.csproj", "{41840AFF-95AA-148A-59AE-DC1140D4CC24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Offices.API.Domain", "src\Offices.API\Offices.API.Domain\InnoClinic.Offices.API.Domain.csproj", "{41840AFF-95AA-148A-59AE-DC1140D4CC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Offices.API\Offices.API.Application\Application.csproj", "{1F18643F-8D9E-C1CE-6E16-335708AE30BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoClinic.Offices.API.Application", "src\Offices.API\Offices.API.Application\InnoClinic.Offices.API.Application.csproj", "{1F18643F-8D9E-C1CE-6E16-335708AE30BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.API.Tests", "tests\Auth.API.Tests\Auth.API.Tests.csproj", "{5028D082-2875-1BD3-B571-A56184AA7765}"
 EndProject

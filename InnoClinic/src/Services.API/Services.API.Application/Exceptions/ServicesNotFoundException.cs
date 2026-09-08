@@ -1,6 +1,7 @@
-﻿using InnoClinic.Shared.Exceptions;
+﻿using Application;
+using InnoClinic.Shared.Exceptions;
 
-namespace Application.Exceptions
+namespace InnoClinic.Services.API.Application.Exceptions
 {
     public class ServicesNotFoundException : NotFoundException
     {

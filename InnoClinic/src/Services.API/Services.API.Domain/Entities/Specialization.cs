@@ -1,4 +1,4 @@
-﻿namespace Domain.Entities
+﻿namespace InnoClinic.Services.API.Domain.Entities
 {
     public class Specialization
     {

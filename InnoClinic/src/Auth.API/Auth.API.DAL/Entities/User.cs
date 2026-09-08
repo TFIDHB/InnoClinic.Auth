@@ -1,4 +1,4 @@
-﻿namespace DAL.Entities;
+﻿namespace InnoClinic.Auth.API.DAL.Entities;
 
 public class User
 {

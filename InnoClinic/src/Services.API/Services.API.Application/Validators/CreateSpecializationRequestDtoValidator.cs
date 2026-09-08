@@ -1,7 +1,8 @@
-﻿using Application.DTOs;
+﻿using Application;
 using FluentValidation;
+using InnoClinic.Services.API.Application.DTOs;
 
-namespace Application.Validators
+namespace InnoClinic.Services.API.Application.Validators
 {
     public class CreateSpecializationRequestDtoValidator : AbstractValidator<CreateSpecializationRequestDto>
     {

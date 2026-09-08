@@ -1,5 +1,5 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using InnoClinic.Services.API.Application.DTOs;
+using InnoClinic.Services.API.Application.Interfaces;
 using InnoClinic.Shared.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

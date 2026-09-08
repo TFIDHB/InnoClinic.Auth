@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Options
+﻿namespace InnoClinic.Profiles.API.Infrastructure.Options
 {
     public class AuthApiOptions
     {

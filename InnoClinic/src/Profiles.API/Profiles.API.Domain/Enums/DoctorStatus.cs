@@ -1,4 +1,4 @@
-﻿namespace Domain.Enums
+﻿namespace InnoClinic.Profiles.API.Domain.Enums
 {
     public enum DoctorStatus
     {

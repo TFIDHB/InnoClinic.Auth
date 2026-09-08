@@ -1,7 +1,7 @@
-﻿using Application.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using InnoClinic.Profiles.API.Application.DTOs;
 
-namespace Application.Validators
+namespace InnoClinic.Profiles.API.Application.Validators
 {
     public class UpdateReceptionistProfileRequestDtoValidator : AbstractValidator<UpdateReceptionistProfileRequestDto>
     {

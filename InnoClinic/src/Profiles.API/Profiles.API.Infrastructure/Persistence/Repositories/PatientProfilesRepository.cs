@@ -1,10 +1,11 @@
-﻿using Application.Interfaces;
-using Domain.Entities;
+﻿using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Domain.Entities;
+using InnoClinic.Profiles.API.Infrastructure.Persistence;
 using InnoClinic.Shared.Helpers;
 using InnoClinic.Shared.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Profiles.API.Infrastructure.Persistence.Repositories
 {
     public class PatientProfilesRepository(ProfilesDbContext context)
         : BaseRepository<PatientProfile, Guid>(context), IPatientProfilesRepository
@@ -27,7 +28,7 @@ namespace Infrastructure.Persistence.Repositories
                     query = query.Where(d =>
                         EF.Functions.Like(d.FirstName, $"%{escaped}%") ||
                         EF.Functions.Like(d.LastName, $"%{escaped}%") ||
-                        (d.MiddleName != null && EF.Functions.Like(d.MiddleName, $"%{escaped}%")));
+                        d.MiddleName != null && EF.Functions.Like(d.MiddleName, $"%{escaped}%"));
                 }
             }
 

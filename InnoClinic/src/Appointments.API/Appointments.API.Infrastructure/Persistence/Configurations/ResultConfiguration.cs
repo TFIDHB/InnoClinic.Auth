@@ -1,8 +1,8 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Appointments.API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infrastructure.Persistence.Configurations
+namespace InnoClinic.Appointments.API.Infrastructure.Persistence.Configurations
 {
     public class ResultConfiguration : IEntityTypeConfiguration<Result>
     {

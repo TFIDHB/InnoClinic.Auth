@@ -1,4 +1,4 @@
-﻿namespace Application.Interfaces
+﻿namespace InnoClinic.Appointments.API.Application.Interfaces
 {
     public interface IServicesClient
     {

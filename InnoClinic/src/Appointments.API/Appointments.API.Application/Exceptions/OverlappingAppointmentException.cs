@@ -1,6 +1,6 @@
 ﻿using InnoClinic.Shared.Exceptions;
 
-namespace Application.Exceptions
+namespace InnoClinic.Appointments.API.Application.Exceptions
 {
     public class OverlappingAppointmentException : BadRequestException
     {

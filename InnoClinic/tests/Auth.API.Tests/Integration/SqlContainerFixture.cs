@@ -1,4 +1,4 @@
-﻿using DAL;
+﻿using InnoClinic.Auth.API.DAL;
 using Microsoft.EntityFrameworkCore;
 using Testcontainers.MsSql;
 

@@ -1,7 +1,7 @@
-﻿using Application.DTOs;
-using Domain.Enums;
+﻿using InnoClinic.Profiles.API.Application.DTOs;
+using InnoClinic.Profiles.API.Domain.Enums;
 
-namespace Application.Interfaces
+namespace InnoClinic.Profiles.API.Application.Interfaces
 {
     public interface IDoctorProfileService : IProfilesService<DoctorProfileDto, CreateDoctorProfileRequestDto, UpdateDoctorProfileRequestDto>
     {

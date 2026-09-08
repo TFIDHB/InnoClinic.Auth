@@ -1,9 +1,10 @@
-﻿using Application.Interfaces;
-using Domain.Entities;
+﻿using InnoClinic.Profiles.API.Application.Interfaces;
+using InnoClinic.Profiles.API.Domain.Entities;
+using InnoClinic.Profiles.API.Infrastructure.Persistence;
 using InnoClinic.Shared.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence.Repositories
+namespace InnoClinic.Profiles.API.Infrastructure.Persistence.Repositories
 {
     public class ReceptionistProfilesRepository(ProfilesDbContext context)
         : BaseRepository<ReceptionistProfile, Guid>(context), IReceptionistProfilesRepository

@@ -1,8 +1,8 @@
-﻿using Domain.Entities;
+﻿using InnoClinic.Services.API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infrastructure.Persistence.Configurations
+namespace InnoClinic.Services.API.Infrastructure.Persistence.Configurations
 {
     public class SpecializationConfiguration : IEntityTypeConfiguration<Specialization>
     {

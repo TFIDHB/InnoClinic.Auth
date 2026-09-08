@@ -1,6 +1,6 @@
-﻿using Domain.Enums;
+﻿using InnoClinic.Profiles.API.Domain.Enums;
 
-namespace Application.DTOs
+namespace InnoClinic.Profiles.API.Application.DTOs
 {
     public class CreateDoctorProfileRequestDto
     {

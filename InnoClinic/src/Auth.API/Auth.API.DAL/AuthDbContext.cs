@@ -1,7 +1,7 @@
-﻿using DAL.Entities;
+﻿using InnoClinic.Auth.API.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DAL
+namespace InnoClinic.Auth.API.DAL
 {
     public class AuthDbContext : DbContext
     {

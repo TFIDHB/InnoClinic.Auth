@@ -1,7 +1,7 @@
-﻿using Application.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using InnoClinic.Appointments.API.Application.DTOs;
 
-namespace Application.Validators
+namespace InnoClinic.Appointments.API.Application.Validators
 {
     public class UpdateResultRequestDtoValidator : AbstractValidator<UpdateResultRequestDto>
     {

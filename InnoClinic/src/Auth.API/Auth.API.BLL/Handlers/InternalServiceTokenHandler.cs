@@ -3,7 +3,7 @@ using InnoClinic.Shared.Settings;
 using Microsoft.Extensions.Options;
 using System.Net.Http.Headers;
 
-namespace BLL.Handlers
+namespace InnoClinic.Auth.API.BLL.Handlers
 {
     public class InternalServiceTokenHandler(IOptions<JwtSettings> jwtSettings) : DelegatingHandler
     {

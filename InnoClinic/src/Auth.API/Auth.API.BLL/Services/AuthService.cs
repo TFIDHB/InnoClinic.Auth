@@ -1,22 +1,22 @@
-﻿using AutoMapper;
-using BLL.DTOs;
-using BLL.Exceptions;
-using BLL.Interfaces;
-using DAL.Entities;
-using DAL.Interfaces;
+﻿using System.Security.Claims;
+using AutoMapper;
+using InnoClinic.Auth.API.BLL.DTOs;
+using InnoClinic.Auth.API.BLL.Exceptions;
+using InnoClinic.Auth.API.BLL.Interfaces;
+using InnoClinic.Auth.API.DAL.Entities;
+using InnoClinic.Auth.API.DAL.Interfaces;
 using InnoClinic.Shared.Constants;
 using InnoClinic.Shared.Exceptions;
 using InnoClinic.Shared.Extensions;
-using System.Security.Claims;
 
-namespace BLL.Services
+namespace InnoClinic.Auth.API.BLL.Services
 {
     public class AuthService(
         ITokenService tokenService,
         IAuthUnitOfWork unitOfWork,
         IMapper mapper,
         IProfilesClient profilesClient,
-        IPasswordGenerator passwordGenerator) : IAuthService
+        IPasswordGenerator passwordGenerator): IAuthService
     {
         public async Task RegisterAsync(RegisterRequestDto dto, CancellationToken ct = default)
         {
@@ -128,9 +128,9 @@ namespace BLL.Services
         public async Task<UserAccountInfoDto> GetUserAccountInfo(Guid userId, ClaimsPrincipal currentUser, CancellationToken ct = default)
         {
             var currentUserId = currentUser.GetUserId();
-            var isInternalService = currentUser.IsInRole(Roles.InternalService);
+            var isStaff = currentUser.IsInRole(Roles.Doctor) || currentUser.IsInRole(Roles.Receptionist);
 
-            if (!isInternalService && currentUserId != userId)
+            if (!isStaff && currentUserId != userId)
             {
                 throw new ForbiddenException(BllMessages.ForbiddenAccessMessage);
             }

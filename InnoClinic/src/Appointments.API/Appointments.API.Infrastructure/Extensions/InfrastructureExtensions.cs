@@ -1,8 +1,8 @@
-﻿using Application.Interfaces;
-using Infrastructure.Clients;
-using Infrastructure.Options;
-using Infrastructure.Persistence;
-using Infrastructure.Persistence.Repositories;
+﻿using InnoClinic.Appointments.API.Application.Interfaces;
+using InnoClinic.Appointments.API.Infrastructure.Clients;
+using InnoClinic.Appointments.API.Infrastructure.Options;
+using InnoClinic.Appointments.API.Infrastructure.Persistence;
+using InnoClinic.Appointments.API.Infrastructure.Persistence.Repositories;
 using InnoClinic.Shared.Handlers;
 using InnoClinic.Shared.Migrators;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Infrastructure.Extensions
+namespace InnoClinic.Appointments.API.Infrastructure.Extensions
 {
     public static class InfrastructureExtensions
     {

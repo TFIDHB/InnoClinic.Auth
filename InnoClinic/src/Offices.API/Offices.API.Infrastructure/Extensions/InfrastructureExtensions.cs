@@ -1,9 +1,9 @@
-﻿using Application.Interfaces;
-using Infrastructure.Persistance;
-using Infrastructure.Persistance.Repositories;
+﻿using InnoClinic.Offices.API.Application.Interfaces;
+using InnoClinic.Offices.API.Infrastructure.Persistance;
+using InnoClinic.Offices.API.Infrastructure.Persistance.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Extensions
+namespace InnoClinic.Offices.API.Infrastructure.Extensions
 {
     public static class InfrastructureExtensions
     {

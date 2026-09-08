@@ -1,8 +1,8 @@
-﻿using Application.DTOs;
-using AutoMapper;
-using Domain.Entities;
+﻿using AutoMapper;
+using InnoClinic.Appointments.API.Application.DTOs;
+using InnoClinic.Appointments.API.Domain.Entities;
 
-namespace Application.AutoMapper
+namespace InnoClinic.Appointments.API.Application.AutoMapper
 {
     public class AppointmentMapper : Profile
     {

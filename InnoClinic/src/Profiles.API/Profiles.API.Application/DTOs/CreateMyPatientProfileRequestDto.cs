@@ -1,6 +1,6 @@
-﻿using Application.Interfaces;
+﻿using InnoClinic.Profiles.API.Application.Interfaces;
 
-namespace Application.DTOs
+namespace InnoClinic.Profiles.API.Application.DTOs
 {
     public class CreateMyPatientProfileRequestDto : IPatientFields
     {

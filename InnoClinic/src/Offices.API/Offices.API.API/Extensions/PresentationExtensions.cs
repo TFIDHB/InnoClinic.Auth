@@ -1,7 +1,7 @@
 ﻿using InnoClinic.Shared.Extensions;
 using InnoClinic.Shared.Options;
 
-namespace Offices.API.Extensions
+namespace InnoClinic.Offices.API.Extensions
 {
     public static class PresentationExtensions
     {

@@ -1,9 +1,10 @@
-﻿using DAL.Entities;
-using DAL.Interfaces;
+﻿using InnoClinic.Auth.API.DAL;
+using InnoClinic.Auth.API.DAL.Entities;
+using InnoClinic.Auth.API.DAL.Interfaces;
 using InnoClinic.Shared.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repositories
+namespace InnoClinic.Auth.API.DAL.Repositories
 {
     public class UserRepository(AuthDbContext context) : BaseRepository<User, Guid>(context), IUserRepository
     {

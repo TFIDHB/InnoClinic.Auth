@@ -7,16 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="FluentValidation.AspNetCore" />
+    <PackageReference Include="MongoDB.Driver" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\InnoClinic.Shared.csproj" />
-    <ProjectReference Include="..\Offices.API.Domain\Domain.csproj" />
+    <ProjectReference Include="..\Offices.API.Application\InnoClinic.Offices.API.Application.csproj" />
   </ItemGroup>
 
 </Project>

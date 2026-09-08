@@ -1,6 +1,6 @@
 ﻿using InnoClinic.Shared.Exceptions;
 
-namespace BLL.Exceptions
+namespace InnoClinic.Auth.API.BLL.Exceptions
 {
     public class InvalidPasswordException : BadRequestException
     {

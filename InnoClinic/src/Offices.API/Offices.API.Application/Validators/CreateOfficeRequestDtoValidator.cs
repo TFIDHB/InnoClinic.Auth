@@ -1,7 +1,7 @@
-﻿using Application.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using InnoClinic.Offices.API.Application.DTOs;
 
-namespace Application.Validators
+namespace InnoClinic.Offices.API.Application.Validators
 {
     public class CreateOfficeRequestDtoValidator : AbstractValidator<CreateOfficeRequestDto>
     {
